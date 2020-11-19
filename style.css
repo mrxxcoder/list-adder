@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #E3F8FF;
+    font-family: 'open sans', 'Poppins';
+    margin:200px auto;
+}
+
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.top {
+
+    width:100%;
+}
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.content input {
+    padding:15px 60px;
+    border-radius: 30px;
+    border:none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.content button {
+    padding:15px 40px;
+    border-radius: 30px;
+    border:none;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    transition: .6s all ease-in-out;
+    color:#444
+}
+
+.content button:hover
+{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+
+}
+
+.content .output{
+    background-color: white;
+    border:none;
+    margin-top:30px;
+    align-self: center;
+    width:90%;
+    min-height: 500px;
+    max-height: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.content .output ul {
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.content .output ul li:first-of-type {
+    margin-top: 20px;
+}
+
+.content .output ul li:last-of-type {
+    margin-bottom: 20px;
+}
+
+.content .output ul li {
+    margin-bottom: 3px;
+}
